@@ -13,13 +13,13 @@ You must provide a path to a directory that contains the `.dmw` files you wish t
 
 After running the tool a new subdirectory named `Export` containing all the generated text files will be created.
 
-# Development Environment
+## Development Environment
 
 Install the .NET 7.0 SDK and build the project with:
 
     dotnet build
 
-## Making Commits
+### Making Commits
 
 All commits should be made using the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) specification, to help with this a git hook that validates commit messages can be installed with:
 

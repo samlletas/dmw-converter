@@ -5,7 +5,7 @@ const int exitCodeError = 1;
 
 if (args.Length < 2)
 {
-    Console.WriteLine("Please specify <directory> and <extension> arguments.");
+    Console.WriteLine("Please specify [directory] and [extension] arguments.");
     return exitCodeError;
 }
 
